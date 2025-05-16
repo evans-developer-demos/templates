@@ -12,7 +12,7 @@ it in one of our environments by providing just two pieces of information:
 1. The Component you wish to deploy.
 1. The target environment, e.g development or production.
 
-Running this template opens a Pull Request (PR) in the [app-of-apps](https://github.com/rhdh-demo-gh/app-of-apps)
+Running this template opens a Pull Request (PR) in the [app-of-apps](https://github.com/evans-developer-demos/app-of-apps)
 repository requesting the creation of the deployment.
 
 Your Component will be deployment PR will either be approved or denied by a
