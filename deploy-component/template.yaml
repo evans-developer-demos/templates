@@ -50,7 +50,7 @@ spec:
           kind: Application
           metadata:
             name: ${{ parameters.component | parseEntityRef | pick('name') }}
-            namespace: janus-argocd
+            namespace: argocd
             labels:
               environment: ${{ parameters.environment }}
               component: ${{ parameters.component | parseEntityRef | pick('name') }}
